@@ -1,0 +1,40 @@
+[
+    {
+        "id": 0,
+        "ime": "Sladjan",
+        "prezime": "Andjelic",
+        "lokacija": "Bijeljina",
+        "password": "slakimc",
+        "email": "slakiproducer@gmail.com",
+        "opis": "Meni moj umene opis",
+        "rating": 7.1,
+        "zanimanje": "producent"
+    },
+    {
+        "id": 1,
+        "ime": "Ognjen",
+        "prezime": "Gajic",
+        "lokacija": "Bijeljina",
+        "password": "gajkela",
+        "email": "gajkela@gmail.com"
+    },
+    {
+        "id": 2,
+        "ime": "Rade",
+        "prezime": "Markovic",
+        "lokacija": "Beograd",
+        "password": "rmapps",
+        "email": "rmapps@gmail.com",
+        "opis": "Ja begi full stack wordpress dev",
+        "rating": 10.0,
+        "zanimanje": "programer"
+    },
+    {
+        "id": 3,
+        "ime": "Nikola",
+        "prezime": "Lukic",
+        "lokacija": "Brcko",
+        "password": "tryhackme",
+        "email": "janajjaci@gmail.com"
+    }
+]
