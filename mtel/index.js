@@ -58,7 +58,7 @@ async function connectAndPerformOperations() {
   app.get("/getid/:id", async (request, response) => {
     try {
       const userId = request.params.id
-      const user = await Person.findById(mongoose.Types.ObjectId(userId))
+      const user = await Person.findOne({ _id: userId })
       
       if (!user) {
         return response.status(404).json({ error: 'User not found' })
