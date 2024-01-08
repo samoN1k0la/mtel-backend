@@ -55,7 +55,7 @@ async function connectAndPerformOperations() {
     }
   })
 
-  app.get("/idget/getid/:id", async (request, response) => {
+  app.get("/nesto/e/getid/:id", async (request, response) => {
     try {
       const userId = request.params.id
       const user = await Person.findById(userId);
