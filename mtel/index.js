@@ -55,9 +55,9 @@ async function connectAndPerformOperations() {
     }
   })
 
-  app.get("/get_id/:_id", async (request, response) => {
+  app.get("/idget/getid/:id", async (request, response) => {
     try {
-      const userId = request.params._id
+      const userId = request.params.id
       const user = await Person.findById(userId);
       
       if (!user) {
