@@ -55,10 +55,10 @@ async function connectAndPerformOperations() {
     }
   })
 
-  app.get("/getid/:id", async (request, response) => {
+  app.get("/get_id/:_id", async (request, response) => {
     try {
-      const userId = request.params.id
-      const user = await Person.findOne({ _id: userId })
+      const userId = request.params._id
+      const user = await Person.findById(userId);
       
       if (!user) {
         return response.status(404).json({ error: 'User not found' })
